@@ -26,7 +26,7 @@ export default class NavbarButton extends Component {
       PropTypes.array,
     ]),
     tintColor: PropTypes.string,
-    title: PropTypes.string,
+    title: PropTypes.any,
     handler: PropTypes.func,
   };
 
